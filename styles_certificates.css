@@ -1,0 +1,44 @@
+*{
+    background-color: deeppink;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.certificate-gallery {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.certificate-gallery h2 {
+    margin-bottom: 20px;
+}
+
+.certificate {
+    margin: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.certificate img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.certificate p {
+    margin-top: 10px;
+    font-size: 16px;
+}
